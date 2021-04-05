@@ -102,7 +102,7 @@ button{
 .new-item__task {
   width: 318px;
 }
-.add:hover {
+.btn-add:hover {
     color: #0FC57C;
 }
 /* Task list */
@@ -131,15 +131,15 @@ button{
 .todo-item__text {
   width: 226px
 }
-.todo-item > .button.delete:hover {
+.todo-item > .button.btn-delete:hover {
     color: #cf2323;
   }
-  .delete__image {
+  .btn-delete__image {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.btn-delete__image:hover {
   transform: rotateZ(0);
 }
 
