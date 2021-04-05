@@ -144,7 +144,7 @@ button{
 }
 
 /* Completed */
-.todo#completed-tasks .todo-item__label {
+.todo-section#completed-tasks .todo-item__label {
   text-decoration: line-through;
   color: #888;
 }
@@ -154,7 +154,7 @@ button{
   display: none;
 }
 
-.todo .todo-item_edit-mode .todo-item__text {
+.todo-section .todo-item_edit-mode .todo-item__text {
   display: inline-block;
   width: 224px;
 }
